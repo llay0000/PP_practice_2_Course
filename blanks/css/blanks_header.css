@@ -1,2 +1,46 @@
 /*font-family: 'Inter', sans-serif;
 font-family: 'Neucha', serif;*/
+
+
+
+.header {}
+
+.logo-img {
+padding-top: 22px;
+}
+
+.logo-hilari {}
+
+.information-text--container---one {
+position: relative;
+height: 138px;
+bottom: 39px;
+
+}
+
+.information-text {
+    padding-bottom: 9px;
+    
+}
+
+.icon--place {
+    display: inline-flex;
+    padding-left: 149px;
+    
+}
+
+.your-city {
+    font-size: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    padding: 0px 0px 0px 9px;
+}
+
+.city-header {
+    color: #00BEDD;
+}
+
+.menu-info {
+    display: inline-block;
+}
+

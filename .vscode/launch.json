@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [ 
+        { 
+            
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open blanks_header.html",
+            "file": "/home/ilaykiyashko/PP_practice/blanks/blanks_header.html",
+            "key": "ctrl+shift+x", 
+            "command": "extension.ecsstractor_port_run", 
+            "when": "editorTextFocus"
+            
+            
+        }
+       
+    ]
+}
