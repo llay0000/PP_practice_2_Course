@@ -1,32 +1,20 @@
-/*font-family: 'Inter', sans-serif;
-font-family: 'Neucha', serif;*/
-
-
-
-.header {}
-
 .logo-img {
-padding-top: 22px;
+    padding-top: 22px;
 }
 
-.logo-hilari {}
-
-.information-text--container---one {
-position: relative;
-height: 138px;
-bottom: 39px;
-
+.information-text--container {
+    position: relative;
+    height: 138px;
+    bottom: 35px;
 }
 
 .information-text {
     padding-bottom: 9px;
-    
 }
 
 .icon--place {
     display: inline-flex;
     padding-left: 149px;
-    
 }
 
 .your-city {
@@ -44,3 +32,61 @@ bottom: 39px;
     display: inline-block;
 }
 
+.icon--place---1, .icon--place---2 {
+    display: inline-flex;
+    padding-left: 82px;
+}
+
+.information-text--3 {
+    padding-bottom: 7px;
+}
+
+.icon--place---5 {
+    display: inline-flex;
+    padding-left: 35px;
+}
+
+.icon--place---4 {
+    display: inline-flex;
+    padding-left: 50px;
+}
+
+.information-text:hover .your-city--blue a {
+    color: #00BEDD;
+}
+.information-text .your-city--blue a {
+    color: black;
+}
+.icon--place---7{
+
+background-color: #00BEDD;
+border-radius: 50px;
+width: 48px;
+height: 47px;
+
+}
+.your-city--8{
+position: relative;
+color: #fff;
+display: flex;
+justify-content: center;
+top: 4px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+}
+.aligan-center{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.information-text--11{
+position: relative;
+padding-left: 44px;
+bottom: 18px;
+}
+.your-city--8:hover {
+    transform: translateY(5px);
+  }
+  
