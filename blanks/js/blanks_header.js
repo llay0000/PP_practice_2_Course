@@ -1,4 +1,4 @@
-const phoneNumberElements = document.querySelectorAll('.your-city.city-header');
+const phoneNumberElements = document.querySelectorAll('.your-city--js');
 
 phoneNumberElements.forEach(phoneNumberElement => {
     phoneNumberElement.addEventListener('click', () => {
@@ -18,3 +18,8 @@ phoneNumberElements.forEach(phoneNumberElement => {
         alert(`Номер телефона ${phoneNumber} скопирован в буфер обмена`);
     });
 });
+
+
+
+
+  

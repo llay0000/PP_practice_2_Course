@@ -4,8 +4,11 @@
 
 .information-text--container {
     position: relative;
-    height: 138px;
     bottom: 35px;
+}
+.information-text--container---w {
+    position: relative;
+    bottom: 32px;
 }
 
 .information-text {
@@ -54,39 +57,103 @@
 .information-text:hover .your-city--blue a {
     color: #00BEDD;
 }
+
+.your-city--blue{
+    font-size: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
 .information-text .your-city--blue a {
     color: black;
 }
-.icon--place---7{
 
-background-color: #00BEDD;
-border-radius: 50px;
-width: 48px;
-height: 47px;
+.icon--place---7 {
+
+    background-color: #00BEDD;
+    border-radius: 50px;
+    width: 48px;
+    height: 47px;
 
 }
-.your-city--8{
-position: relative;
-color: #fff;
-display: flex;
-justify-content: center;
-top: 4px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 14px;
+
+.your-city--8 {
+    position: relative;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    top: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
 }
-.aligan-center{
-display: flex;
-justify-content: center;
-align-items: center;
+
+.aligan-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.information-text--11{
-position: relative;
-padding-left: 44px;
-bottom: 18px;
+
+.information-text--11 {
+    position: relative;
+    padding-left: 44px;
+    bottom: 18px;
 }
+
 .your-city--8:hover {
     transform: translateY(5px);
-  }
+}
+
+.nav {
+background-color: #00BEDD;
+height: 70px;
+}
+.menu-header {
+position: relative;
+top: 26px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+}
+.menu-left{
+margin-left: 132px;
+}
+
+
+.footer {
+    height: 342px;
+    background-color: #00BEDD;
+}
+.Contact--Information {
+position: relative;
+top: 75px;
+left: 95px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #FFFFFF;
+}
+.footer-flex{
+display: inline-block;
+
+}
+.footer-flex--padding {
+padding-left: 209px;
+
+}
+.footer-icon--container{
+position: relative;
+top: 206px;
+}
+
+
+
+
+
+
+  
   
