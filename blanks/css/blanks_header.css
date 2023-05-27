@@ -6,6 +6,7 @@
     position: relative;
     bottom: 35px;
 }
+
 .information-text--container---w {
     position: relative;
     bottom: 32px;
@@ -58,7 +59,7 @@
     color: #00BEDD;
 }
 
-.your-city--blue{
+.your-city--blue {
     font-size: 14px;
     font-family: 'Inter';
     font-style: normal;
@@ -106,20 +107,22 @@
 }
 
 .nav {
-background-color: #00BEDD;
-height: 70px;
+    background-color: #00BEDD;
+    height: 70px;
 }
+
 .menu-header {
-position: relative;
-top: 26px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-color: #FFFFFF;
+    position: relative;
+    top: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
 }
-.menu-left{
-margin-left: 132px;
+
+.menu-left {
+    margin-left: 132px;
 }
 
 
@@ -127,33 +130,29 @@ margin-left: 132px;
     height: 342px;
     background-color: #00BEDD;
 }
+
 .Contact--Information {
-position: relative;
-top: 75px;
-left: 95px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-color: #FFFFFF;
+    position: relative;
+    top: 75px;
+    left: 95px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
 }
-.footer-flex{
-display: inline-block;
+
+.footer-flex {
+    display: inline-block;
 
 }
+
 .footer-flex--padding {
-padding-left: 209px;
+    padding-left: 209px;
 
 }
-.footer-icon--container{
-position: relative;
-top: 206px;
+
+.footer-icon--container {
+    position: relative;
+    top: 206px;
 }
-
-
-
-
-
-
-  
-  
