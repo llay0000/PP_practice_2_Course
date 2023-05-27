@@ -1,0 +1,44 @@
+.section {
+    padding-top: 57px;
+    height: 766px;
+}
+
+.text-basket {
+    font-family: 'Neucha';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.empty {
+    padding-top: 18px;
+}
+
+.empty-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.Continue-button {
+    display: flex;
+    background: #0069D9;
+    border-radius: 3px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+    width: 177px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-button {
+    padding-top: 252px;
+    padding-left: 1018px;
+
+}
