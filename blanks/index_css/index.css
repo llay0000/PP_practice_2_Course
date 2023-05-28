@@ -1,0 +1,191 @@
+.slider-section {
+  display: flex;
+  justify-content: center;
+  background-image: url('waves_img.png');
+  background-repeat: repeat-x;
+  background-size: 100% 757.29px;
+  height: 757.29px;
+}
+
+.section-icone {
+  height: 325px;
+  height: 325px;
+}
+
+.slider {
+  width: 950px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 144px;
+  padding-top: 121px;
+}
+
+.icone {
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.postion {
+  display: flex;
+  align-items: center;
+}
+
+.text-icone {
+  white-space: nowrap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.section-card {
+  height: 908px;
+}
+
+.Decor-text {
+  font-family: 'Neucha';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 84px;
+}
+
+.container-card {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  margin-bottom: -37px;
+}
+
+.card-text--1 {
+  position: relative;
+  display: flex;
+  width: 195px;
+  height: 37px;
+  background: #00BEDD;
+  border-radius: 0px 0px 20px 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  top: 37px;
+}
+
+.card-text {
+  position: relative;
+  display: flex;
+  width: 195px;
+  height: 37px;
+  background: #00BEDD;
+  border-radius: 0px 0px 35px 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  top: 37px;
+}
+
+.price-card--1 {
+  position: relative;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  bottom: 30px;
+  left: 15px;
+}
+
+.price-card--2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  width: 188px;
+  height: 45px;
+  background: #FDD659;
+  border-radius: 0px 35px 0px 0px;
+  bottom: 47px;
+}
+
+.container-div {
+  box-shadow: h-shadow v-shadow blur spread color inset;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.container-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.img-card--2 {
+  box-shadow: h-shadow v-shadow blur spread color inset;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25);
+}
+
+.container-photo--1, .container-photo--2 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  top: 42px;
+}
+
+.img-photo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0;
+  /* remove any bottom margin */
+}
+
+.section-photo {
+  height: 973px;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 37px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 0.3s ease-in-out;
+  max-height: 300px;
+}
+
+.card:hover::before {
+  box-shadow: inset 14px 14px 14px #00BEDD;
+}
