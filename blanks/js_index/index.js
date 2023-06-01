@@ -11,15 +11,4 @@ $('.slider').slick({
   autoplaySpeed: 3000
 });
 
-const cards = document.querySelectorAll(".card");
-
-cards.forEach(card => {
-  card.addEventListener("mouseover", function () {
-    const currentZoom = parseFloat(window.getComputedStyle(this).getPropertyValue("zoom"));
-
-    const newZoom = currentZoom + 0.1;
-    this.style.zoom = newZoom;
-  });
-});
-
 
