@@ -1,0 +1,79 @@
+.text {
+    padding-left: 506px;
+    font-family: 'Neucha';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    padding-top: 42px;
+}
+
+.section-contacts {
+    height: 354px;
+}
+
+.contacts-container {
+
+    display: inline-flex;
+    gap: 63px;
+    padding-left: 330px;
+    justify-content: space-between;
+}
+
+.li-contacts {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 32px;
+}
+
+.button-div {
+   position: relative;
+   right: 40px;
+   bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 199px;
+    height: 35px;
+    background: #FFA621;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.li-contacts, span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.svg {
+
+    position: relative;
+    right: 25px;
+    top: -25px;
+}
+
+.map {
+    height: 412px;
+}
+
+.container-map {
+padding-left: 212px;
+}
+
+.butoon{
+position: relative;
+bottom: 30px;
+}
